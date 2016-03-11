@@ -220,7 +220,7 @@ input[type=checkbox]:checked ~ #menu{
     padding: 0 15% 0 15%;
   }
   h1{
-    font-size: 12;
+    font-size: 12px;
     letter-spacing: 6px;
   }
  nav ul {
