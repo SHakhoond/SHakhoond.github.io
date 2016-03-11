@@ -190,10 +190,10 @@ img {
     nav .has-sub ul{
     left: 88px;
     top: 0;
-    width: 189px;
+    width: 173px;
   }
   nav .has-sub ul li a{
-    line-height: 50%;
+    line-height: 61%;
   }
 }
 .show-menu {
@@ -217,6 +217,13 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 @media only  screen and (max-width: 480px)  {
+  body {
+    padding: 0 15% 0 15%;
+  }
+  h1{
+    font-size: 12;
+    letter-spacing: 6px;
+  }
  nav ul {
     position: absolute;
     display: none;
@@ -227,6 +234,7 @@ input[type=checkbox]:checked ~ #menu{
   }
     nav ul li {
     margin-bottom: 1px;
+    width: 88%;
   }  
   .show-menu {
     display:block;
@@ -237,3 +245,8 @@ input[type=checkbox]:checked ~ #menu{
   }
 }
 
+@media only  screen and (max-width: 450px) {
+  body{
+    padding: 0;
+  }
+}
