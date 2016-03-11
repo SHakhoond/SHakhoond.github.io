@@ -170,9 +170,6 @@ img {
 
 }
 
-.blog {
-  height: 350;
-}
 
 
 .show-menu {
@@ -252,9 +249,13 @@ input[type=checkbox]:checked ~ #menu{
   body{
     padding: 0;
   }
+  nav ul li{
+  margin-bottom: -2px;
+}
+
   nav .has-sub ul {
-    width: 150px;
-    left: 54px;
+    width: 136px;
+left: 49px;
   }
   nav .has-sub ul li a{
       line-height: 90%;
