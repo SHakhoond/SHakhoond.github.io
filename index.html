@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>Shayan's blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <link href="styles/main.css" rel="stylesheet" type="text/css">
+    
   </head>
   
   <body>  
@@ -14,8 +16,9 @@
          Welcome to my EDA's blog
        </h1>
        <nav>
-        <div id="menu">
-          <ul>
+          <label for="show-menu" class="show-menu">Show Menu</label>
+          <input type="checkbox" id="show-menu" role="button">
+          <ul id="menu">
             <li><a href="http://SHakhoond.github.io/index.html"><span>Home</span></a></li>
             <li class='active has-sub'><a href='#'><span>Blogs</span></a>
               <ul>
@@ -37,7 +40,7 @@
             <li><a href='#'><span>About me</span></a></li>
             <li class='last'><a href='#'><span>Contact me</span></a></li>
           </ul>        
-        </div>
+        
        </nav>
        <div>
          <img src="image/page.jpg">
