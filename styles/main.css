@@ -174,7 +174,28 @@ img {
   height: 350;
 }
 
-@media screen and (max-width: 600px) {
+
+.show-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #db000b;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+
+
+input[type=checkbox]{
+    display: none;
+}
+
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
   body {
     padding: 0 50px 0 50px;
     margin: 0;
@@ -196,27 +217,8 @@ img {
     line-height: 61%;
   }
 }
-.show-menu {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  color: #fff;
-  background: #db000b;
-  text-align: center;
-  padding: 10px 0;
-  display: none;
-}
 
-/*Hide checkbox*/
-input[type=checkbox]{
-    display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
-
-@media   screen and (max-width: 480px)  {
+@media  only screen and (max-width: 480px)  {
   body {
     padding: 0 15% 0 15%;
   }
@@ -240,17 +242,21 @@ input[type=checkbox]:checked ~ #menu{
     display:block;
   }
   nav .has-sub ul {
-  width: 133px;
+  width: 138px;
   left: 56px;
   }
 }
+
 
 @media  screen and (max-width: 450px) {
   body{
     padding: 0;
   }
-  .has-sub ul {
-    width: 171px;
+  nav .has-sub ul {
+    width: 150px;
     left: 54px;
   }
+  nav .has-sub ul li a{
+      line-height: 90%;
+    }
 }
