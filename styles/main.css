@@ -171,7 +171,15 @@ img  {
 }
 main {
     padding: 0 15% 0 15%;
-  }
+}
+  #wire{
+  width: 28.909%;
+  display: block;
+  height: 393px;
+  float: left;
+  margin: 0px 1.636% 12.636% 0px;
+  position: relative;
+}
 
 
 .show-menu {
