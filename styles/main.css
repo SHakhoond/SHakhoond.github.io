@@ -172,14 +172,33 @@ img  {
 main {
     padding: 0 15% 0 15%;
 }
-  #wire{
-  width: 28.909%;
-  display: block;
-  height: 393px;
-  float: left;
-  margin: 0px 1.636% 12.636% 0px;
-  position: relative;
+.wireframe {
+  padding: 100px 0;
 }
+.wire-modole{
+  list-style: none;
+}
+.wireframe ul.wire-module li{
+  display: block;
+  width: 30%;
+  height: 370px;
+  position: relative;
+  float: left;
+  margin: 0% 3.3% 17.3% 0;
+}
+ .wireframe ul.wire-module li .wire-detail{
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+    background: red;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+ 
+
 
 
 .show-menu {
@@ -223,6 +242,11 @@ input[type=checkbox]:checked ~ #menu{
   nav .has-sub ul li a{
     line-height: 61%;
   }
+  .wireframe ul.wire-module li{
+    width: 46%;
+  }
+  
+  
 }
 
 @media  only screen and (max-width: 480px)  {
@@ -252,6 +276,9 @@ input[type=checkbox]:checked ~ #menu{
   width: 138px;
   left: 56px;
   }
+  .wireframe ul.wire-module li{
+    width: 82%;
+  }
 }
 
 
@@ -270,4 +297,5 @@ left: 49px;
   nav .has-sub ul li a{
       line-height: 90%;
     }
+    
 }
