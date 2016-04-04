@@ -2,19 +2,19 @@
 <html>
   <head>
     <title>Shayan's blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
   </head>
   
   <body>  
     <!-- header -->     
     <header>
-      <div>
-        <h1>
-          Welcome to my EDA's blog
-        </h1>
-        <nav>
+     <div>
+       <h1>
+         Welcome to my EDA's blog
+       </h1>
+       <nav>
           <label for="show-menu" class="show-menu">Show Menu</label>
           <input type="checkbox" id="show-menu" role="button">
           <ul id="menu">
@@ -27,39 +27,58 @@
                     <li><a href="http://SHakhoond.github.io/blogs/c1-time-and-habits-blog.html"><span>Time and Habits</span></a></li>
                     <li><a href="http://SHakhoond.github.io/blogs/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
                     <li><a href="http://SHakhoond.github.io/blogs/c4-daily-mindfulness.html">Daily Mindfulness</a></li> 
-                    <li><a href="http://SHakhoond.github.io/blogs/c5-self-confidence.html">Self confidence</a></li>
-                    <li class="last"><a href="http://SHakhoond.github.io/blogs/c6-control.html">Control </a></li>                 
+                    <li class="last"><a href="http://SHakhoond.github.io/blogs/c5-self-confidence.html">Self confidence</a></li>
                   </ul>
                 </li>
                 <li class='has-sub'><a href='#'><span>Technical blog</span></a>
                   <ul>
-					           <li><a href='http://SHakhoond.github.io/blogs/t2-html-css-dom-p1.html'><span>HTML-CSS-DOM P1</span></a></li>
+                    <li><a href='http://SHakhoond.github.io/blogs/t2-html-css-dom-p1.html'><span>HTML-CSS-DOM P1</span></a></li>
                     <li><a href='http://SHakhoond.github.io/blogs/t2-html-css-dom-p2.html'><span>HTML-CSS-DOM P2</span></a></li>
                     <li><a href='http://SHakhoond.github.io/blogs/t3-design-to-web-blog.html'><span>Desing To Web Blog</span></a></li>
                     <li><a href="http://SHakhoond.github.io/blogs/t4-javascript-basics.html">Javascript Basic</a></li>
                     <li><a href="http://SHakhoond.github.io/blogs/t5-problem-solving.html">Problem Solving</a></li>
                     <li class="last"><a href="http://SHakhoond.github.io/blogs/t6-js-language.html">JS Language</a></li>
-              	  </ul>
-            	</li>
+
+                  </ul>
+              </li>
               </ul>
               <li><a href='#'><span>About me</span></a></li>
               <li class='last'><a href='#'><span>Contact me</span></a></li>
           </ul>        
         </nav>
-        <div>
-          <img src="image/page.jpg">
-        </div>
+       <div>
+         <img src="../image/page.jpg" alt="">
+       </div>
       </div>
-    </header>
-     <!-- hero -->
-    <main>
-      <div>
+     </header>     
+     <div id="content">
+     <p>
+       <strong>Parentheses ()</strong> we use () for grouping and containing 
+       expressions and calling functions.  parentheses are used to contain a list 
+       of parameters passed to function.<br>
+         grouping :------------------------var num = (10+5)<br>
+         Containing expressions : ------if (this < this){}<br>
+         functional : ----------------------function this(para1 ,para2){}
+     </p>
+     <p>
+       <strong>Brackets []</strong>they are used with arrays and let us access 
+       to an object's properties by using bracket notation.<br>
+       Array : ----- var newArray = [1, true, "string"]<br>
+       Object : ---- var obj = newObj["this"]
+     </p>
+     <p>
+        <strong>Braces {}</strong>The curly brackets are used to define the 
+        start and end of the function, they also separate code into blocks 
+        within the function. The curly brackets help JavaScript to understand 
+        the structure of our script and what we want it to do,<br>
+        function : ------------------ MyFunction(){alert("Hello world!")}<br>
+        separate blocks:-----if(a==1){do("H")}else{do("Goodbye!")}
+     </p>
+     <p>
+       <strong>Single quotes '' and double quotes ""s</strong>both are used  define strings with some diffrerence
+     </p>
+          
+    </div>
       
-        
-      </div>
-    </main>
-    <footer>
-    <small>©right 2016</small>
-    </footer> 
   </body>
 </html>
